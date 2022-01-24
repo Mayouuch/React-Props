@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './profile/profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+<Profile fullName='Khiari Samar' bio='Economic Student' Profession='full stack developer' handleName='Name'> https://artcademyatelier.fr/wp-content/uploads/2018/12/6-3.jpg </Profile>
     </div>
   );
 }
